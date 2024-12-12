@@ -586,6 +586,9 @@ input[type="date" i] {
   height: 15px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
+  position: absolute;
+  top: 14px;
+  right: -40px;
 }
 
 .header-fixed .btn-show-sidebar {
@@ -617,6 +620,10 @@ input[type="date" i] {
   }
 
   .wrap_header {
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    width: 93%;
     height: 100px;
   }
 }
@@ -698,7 +705,11 @@ input[type="date" i] {
 
 @media (max-width: 576px) {
   .wrap_header {
-    height: 80px;
+          display: flex
+;
+        justify-content: right;
+        height: 80px;
+        width: 93%;
   }
 
   .gallery-sidebar {
